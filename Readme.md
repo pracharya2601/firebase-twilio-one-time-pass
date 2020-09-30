@@ -55,11 +55,14 @@ More info here  <a href="https://firebase.google.com/docs/cli/" rel="nofollow">h
     Create <code> twilio.js</code> file and paste the following code
     <p><code>
         const twilio = require('twilio');
-        <br/>
+    </code></p>
+    <p><code>
         const accountSid = 'twilio accountSid key'; 
-        <br/>
+    </code></p>
+    <p><code>
         const authToken = "twilio authTOken";
-        <br/>
+   </code></p>
+   <p><code>
         module.exports = new twilio.Twilio(accountSid, authToken);
     </code></p>
 
