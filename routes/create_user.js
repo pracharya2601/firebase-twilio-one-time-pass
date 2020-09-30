@@ -6,7 +6,7 @@ module.exports = (req, res) => {
         return res.status(422).send({error: 'Wrong Input'})
     }
     //format phone number to remove dashes
-    const phone = String(req.body.phoneNumber).replace(/[^\d]/g);
+    const phone = String(req.body.phoneNumber).replace(/[^\d]/g, '');
 
     //creating account
         admin
